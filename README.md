@@ -2,9 +2,9 @@
 
 ![CI](https://github.com/Hibanka/enum-utils/actions/workflows/ci.yml/badge.svg)
 [![NPM Version](https://badgen.net/npm/v/@hibanka/enum-utils)](https://npmjs.com/package/@hibanka/enum-utils)
-[![Minimum Node.JS Version](https://badgen.net/npm/node/@hibanka/enum-utils)](https://npmjs.com/package/@hibanka/enum-utils)
+[![Minimum Node.js Version](https://badgen.net/npm/node/@hibanka/enum-utils)](https://npmjs.com/package/@hibanka/enum-utils)
 
-Node.js Utilities for TypeScript enums.
+Node.js utility library for TypeScript enums
 
 ## Installation
 
@@ -12,9 +12,9 @@ Node.js Utilities for TypeScript enums.
 npm install @hibanka/enum-utils
 ```
 
-## Documentation
+## Usage
 
-### 1. Get numeric enum keys
+### Numeric Enum keys
 
 ```ts
 import { numericEnumKeys } from '@hibanka/enum-utils';
@@ -28,7 +28,7 @@ enum TestEnum {
 numericEnumKeys(TestEnum); // ['A', 'B', 'C']
 ```
 
-### 2. Get numeric enum values
+### Numeric Enum values
 
 ```ts
 import { numericEnumValues } from '@hibanka/enum-utils';
@@ -42,7 +42,7 @@ enum TestEnum {
 numericEnumValues(TestEnum); // [0, 1, 2]
 ```
 
-### 3. Get numeric enum entries
+### Numeric Enum entries
 
 ```ts
 import { numericEnumEntries } from '@hibanka/enum-utils';
